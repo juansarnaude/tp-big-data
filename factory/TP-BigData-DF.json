@@ -1,0 +1,9 @@
+{
+	"name": "TP-BigData-DF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aadea6c7-edcd-4911-add4-feb09ad8bb28",
+		"tenantId": "0c94dc1f-5ac8-4b09-b61d-72b45c5f58cf"
+	}
+}
