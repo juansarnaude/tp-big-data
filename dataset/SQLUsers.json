@@ -1,0 +1,51 @@
+{
+	"name": "SQLUsers",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "user_id",
+				"type": "varchar"
+			},
+			{
+				"name": "name",
+				"type": "text"
+			},
+			{
+				"name": "email",
+				"type": "text"
+			},
+			{
+				"name": "address",
+				"type": "text"
+			},
+			{
+				"name": "birth_dt",
+				"type": "date"
+			},
+			{
+				"name": "phone",
+				"type": "text"
+			},
+			{
+				"name": "type",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "rubro",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "loaded_lk_users"
+		}
+	}
+}

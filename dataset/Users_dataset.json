@@ -1,5 +1,5 @@
 {
-	"name": "DestinationDataset_lod",
+	"name": "Users_dataset",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage",
@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "output1"
+				"fileName": "lk_users.csv",
+				"container": "dataset1"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
